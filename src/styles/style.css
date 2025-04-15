@@ -1,0 +1,90 @@
+/* body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* ------------------------------
+    Layout
+  ------------------------------ */
+.layout-wrapper {
+    min-height: 100vh;
+    background-color: #121212;
+    color: white;
+}
+
+/* ------------------------------
+    Navbar
+  ------------------------------ */
+.navbar-custom {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+/* ------------------------------
+     Sidebar
+  ------------------------------ */
+/* .sidebar-custom {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-right: 1px solid #333;
+} */
+
+/* ------------------------------
+     CardGame 
+  ------------------------------ */
+.card-game {
+    background-color: #1e1e1e !important;
+    color: white !important;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    border: 1px solid #333;
+}
+
+.card-game:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+}
+
+/* ------------------------------
+    Link dentro ai bottoni
+  ------------------------------ */
+.card-game .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-game .btn:hover {
+
+    background-color: rgba(236, 214, 11, 0.979);
+    color: #121212 !important;
+
+}
+
+/* ------------------------------
+    Utility
+  ------------------------------ */
+.text-shadow {
+    text-shadow: 1px 1px 2px black;
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+}
+
+/* genre items */
+.genre-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.genre-item:hover {
+    background-color: #198754 !important;
+    /* bootstrap green */
+    color: white !important;
+}
