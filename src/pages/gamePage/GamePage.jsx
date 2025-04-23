@@ -38,7 +38,7 @@ export default function GamePage() {
                         <ToggleFavorite data={data} />
                         <p><strong>Rating:</strong> {data.rating}</p>
                         <h5 className="mt-3">About:</h5>
-                        <ReadMoreArea lettersLimit={350} expandLabel="Leggi di più" // Expand Label
+                        <ReadMoreArea lettersLimit={350} expandLabel="Leggi di più"
                             collapseLabel="Riduci">
                             {data.description_raw}
                         </ReadMoreArea>

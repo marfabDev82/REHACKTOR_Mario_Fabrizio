@@ -14,12 +14,10 @@ export default function Layout() {
 
             <Container fluid className="my-4">
                 <Row>
-                    {/* Sidebar */}
+
                     <Col xs={12} md={3} lg={2} className="mb-4">
                         <SideBar />
                     </Col>
-
-                    {/* Contenuto principale */}
                     <Col xs={12} md={9} lg={10}>
                         <Outlet />
                     </Col>

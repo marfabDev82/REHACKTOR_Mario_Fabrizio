@@ -30,7 +30,7 @@ export default function ProfilePage() {
                 {favorites.map((game) => (
                     <Dropdown.ItemText key={game.id} style={favoriteUI}>
                         <div>
-                            <img width={50} height={50} src={game.game_image} alt="" />
+                            <img width={90} height={50} src={game.game_image} alt="" />
                             <p>{game.game_name}</p>
                         </div>
                         <div>
@@ -53,4 +53,6 @@ export default function ProfilePage() {
 
     );
 }
+
+
 

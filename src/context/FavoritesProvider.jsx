@@ -23,7 +23,7 @@ export default function FavoritesProvider({ children }) {
 
     }, [session]);
 
-    // 🔎 Verifica se il gioco è già tra i favoriti
+
     const isFavorite = (game) => favorites.some((fav) => +fav.game_id === game.id);
 
     const addToFavorites = async (game) => {

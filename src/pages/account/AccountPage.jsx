@@ -99,12 +99,12 @@ export default function AccountPage() {
                         </Alert>
                     )}
 
-                    <Form onSubmit={updateProfile} noValidate className="mt-5">
+                    <Form onSubmit={updateProfile} noValidate className="mt-3">
                         <Avatar
                             url={avatar_url}
                             size={150}
                             onUpload={(_, url) => {
-                                setAvatarUrl(url); // Solo aggiorna lo state, niente backend
+                                setAvatarUrl(url);
                             }}
 
                         />
